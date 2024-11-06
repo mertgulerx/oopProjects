@@ -1,2 +1,2 @@
 # oopProjects
-Small projects for Object OriEnted Programming class (YTU)
+Small projects for Object Oriented Programming class (YTU)
