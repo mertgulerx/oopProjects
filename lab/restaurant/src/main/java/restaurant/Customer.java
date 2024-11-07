@@ -17,18 +17,31 @@ public class Customer {
         reservations.add(reservation);
     }
 
-    public void removeReservation(Reservation reservation){
-        reservations.remove(reservation);
+    public void removeReservation(int number){
+        reservations.remove(number - 1);
+    }
+
+    public Reservation getReservation(int number){
+        return reservations.get(number - 1);
+    }
+
+    public int getReservationCount(){
+        return reservations.size();
+    }
+
+    public StringBuilder listReservations(){
+            StringBuilder myReservations = new StringBuilder();
+            for (Reservation reservation: reservations){
+                myReservations.append(reservation).append("; ");
+            }
+        return myReservations;
     }
 
 
     @Override
     public String toString(){
-        StringBuilder myReservations = new StringBuilder();
-        for (Reservation reservation: reservations){
-            myReservations.append(reservation).append("; ");
-        }
-        return "\nReservations of " + name + " " + surname + ": " + myReservations + "\n";
+
+        return "\nReservations of " + name + " " + surname + ": " + listReservations() + "\n";
     }
 
 }

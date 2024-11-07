@@ -13,6 +13,15 @@ public class Reservation {
         this.people = people;
     }
 
+    public int getTable(){
+        return this.table;
+    }
+
+    public int getTime(){
+        return this.time;
+    }
+
+
     public String timeTransformer(int j){
         String time = "21:00";
         if (j - 1 == 0){

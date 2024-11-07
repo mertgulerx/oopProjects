@@ -10,12 +10,10 @@ public class UserInterface {
     private final TableManager manager;
     private int table;
     private int time;
-    private Reservation reservation;
 
     public UserInterface(Scanner scanner, TableManager manager) {
         this.scanner = scanner;
         this.manager = manager;
-        reservation = new Reservation(null, 0, 0, 1);
     }
 
     public void start() {
@@ -90,7 +88,7 @@ public class UserInterface {
             }
         }
         if (manager.addReservation(table, time)) {
-            reservation = new Reservation(customer, table, time,people);
+            Reservation reservation = new Reservation(customer, table, time, people);
             this.customer.addReservation(reservation);
             System.out.println("\nReservation is successfully made.\n");
         } else {
@@ -99,12 +97,19 @@ public class UserInterface {
     }
 
     public void remove() {
-        timeTableNumberManager();
-        if (manager.removeReservation(table, time)) {
+        if (customer.getReservationCount() == 0){
+            System.out.println("\nYou dont have any reservations.\n");
+            return;
+        }
+        System.out.println("Your reservations: ");
+        System.out.println(customer);
+        System.out.println("Which one do you want to remove? (Enter number by shown order)");
+        int number = Integer.parseInt(scanner.nextLine());
+        if (number > 0 && manager.removeReservation(customer.getReservation(number).getTable(), customer.getReservation(number).getTime())){
+            customer.removeReservation(number);
             System.out.println("\nReservation is successfully removed.\n");
-            this.customer.removeReservation(reservation);
         } else {
-            System.out.println("\nThis reservation is not booked.\n");
+            System.out.println("Please enter a valid number. Returning to the main menu...\n");
         }
     }
 
