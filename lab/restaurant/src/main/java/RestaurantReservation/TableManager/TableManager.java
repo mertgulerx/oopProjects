@@ -1,4 +1,4 @@
-package restaurant.TableManager;
+package RestaurantReservation.TableManager;
 
 public class TableManager {
     private int count;

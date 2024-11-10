@@ -1,6 +1,6 @@
-package restaurant;
+package RestaurantReservation;
 
-import restaurant.TableManager.TableManager;
+import RestaurantReservation.TableManager.TableManager;
 
 import java.util.Scanner;
 

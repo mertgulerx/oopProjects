@@ -1,4 +1,4 @@
-package restaurant;
+package RestaurantReservation;
 
 public class Reservation {
     private Customer customer;

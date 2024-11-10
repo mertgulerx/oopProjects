@@ -1,4 +1,4 @@
-package restaurant.TableManager;
+package RestaurantReservation.TableManager;
 
 public class Table {
     private final int maxReservations;

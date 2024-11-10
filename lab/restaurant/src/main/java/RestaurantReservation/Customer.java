@@ -1,4 +1,4 @@
-package restaurant;
+package RestaurantReservation;
 
 import java.util.ArrayList;
 
