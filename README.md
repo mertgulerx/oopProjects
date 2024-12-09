@@ -5,7 +5,7 @@ Small projects for Object Oriented Programming class (YTU)
 + Restaurant Reservation
 + Grade Statistics
 + Recipe Search
-+ Shopping Cart
++ Shopping Cart (HashMap tutorial)
 
 
 ## NYP Labs 
