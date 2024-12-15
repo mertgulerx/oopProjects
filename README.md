@@ -6,6 +6,7 @@ Small projects for Object Oriented Programming class (YTU)
 + Grade Statistics
 + Recipe Search
 + Shopping Cart (HashMap tutorial)
++ Data sorting (Using collections and streams)
 
 
 ## NYP Labs 
