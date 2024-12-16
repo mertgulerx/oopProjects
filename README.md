@@ -8,6 +8,7 @@ Small projects for Object Oriented Programming class (YTU)
 + Shopping Cart (HashMap tutorial)
 + Data sorting (Using collections and streams)
 + HashMap and ArrayList classes from scratch
++ Magic Number Matrix Creator (A very beatiful magic number creator with Siamese method)
 
 
 ## NYP Labs 
