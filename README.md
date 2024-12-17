@@ -1,5 +1,5 @@
 # oopProjects
-Small projects for Object Oriented Programming class (YTU)
+Java projects for Object Oriented Programming class (YTU)
 
 ## Current Projects
 + Restaurant Reservation
