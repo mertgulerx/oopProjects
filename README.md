@@ -8,7 +8,7 @@ Java projects for Object Oriented Programming class (YTU)
 + Shopping Cart (HashMap tutorial)
 + Data sorting (Sorting data from a .csv file with specific format using collections and stream methods)
 + HashMap and ArrayList classes from scratch
-+ Magic Number Matrix Creator (A very beautiful magic number creator with Siamese method)
++ Magic Number Matrix Creator (A very beautiful magic number creator with [Siamese method](https://en.wikipedia.org/wiki/Siamese_method))
 
 
 ## NYP Labs 
