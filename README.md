@@ -2,11 +2,11 @@
 Java projects for Object Oriented Programming class (YTU)
 
 ## Current Projects
-+ Restaurant Reservation
-+ Grade Statistics
-+ Recipe Search (File IO tutorial)
-+ Shopping Cart (HashMap tutorial)
-+ Data sorting (Sorting data from a .csv file with specific format using collections and stream methods)
++ Restaurant Reservation System
++ Grade Statistics Calculator
++ Recipe Search Engine (File IO tutorial)
++ Shopping Cart System (HashMap tutorial)
++ Database data sorting (Sorting data from a .csv file with specific format using collections and stream methods)
 + Custom HashMap and ArrayList classes from scratch
 + Magic Number Matrix Creator (A very beautiful magic number creator with [Siamese method](https://en.wikipedia.org/wiki/Siamese_method))
 
