@@ -11,7 +11,7 @@ Java projects for Object Oriented Programming class (YTU)
 + Magic Number Matrix Creator (A very beautiful magic number creator with [Siamese method](https://en.wikipedia.org/wiki/Siamese_method))
 
 
-## NYP Labs 
+## OOP Labs 
 + Lab 1 - Visa Application System
 + Lab 2 - Car Renting Company
 + Lab 3 - Market application
